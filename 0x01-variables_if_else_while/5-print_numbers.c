@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-numbers ="0123456789"
-putchar(numbers);
+put("0123456789");
 return (0);
 }
