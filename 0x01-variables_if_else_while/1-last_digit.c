@@ -26,22 +26,21 @@ printf("%i", n % 10);
 printf(" and is greater than 5\n");
 }
 
-else if (n == 0)
-{
-printf("Last digit of ");
-printf("%i", n);
-printf(" is ");
-printf("%i", n % 10);
-printf(" and is 0\n");
-}
-
-else
+else if (n != 0)
 {
 printf("Last digit of ");
 printf("%i", n);
 printf(" is ");
 printf("%i", n % 10);
 printf(" and is less than 6 and not 0\n");
+}
+else
+{
+printf("Last digit of ");
+printf("%i", n);
+printf(" is ");
+printf("%i", n % 10);
+printf(" and is 0\n");
 }
 	return (0);
 }
