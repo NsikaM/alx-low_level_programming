@@ -18,20 +18,23 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 puts("Last digit of ");
-printf("%i", n);
 
-if (n%10 > 5)
+
+if (n % 10 > 5)
 {
-puts(" and is grater than 5");
+printf("%i", n);
+puts(" and is greater than 5");
 }
 
 else if (n == 0)
 {
+printf("%i", n);
 puts(" and is 0");
 }
 
 else
 {
+    printf("%i", n);
 puts(" and is less than 6 and not 0");
 }
 	return (0);
