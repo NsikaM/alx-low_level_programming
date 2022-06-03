@@ -26,7 +26,7 @@ printf("%i", n);
 puts(" and is greater than 5");
 }
 
-else if (n == 0)
+else if (n = 0)
 {
 printf("%i", n);
 puts(" and is 0");
