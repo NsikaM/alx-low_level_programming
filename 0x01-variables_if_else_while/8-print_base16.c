@@ -7,8 +7,7 @@
  */
 int main(void)
 {
-lower = "0123456789abcdef"
-putchar(lower);
+putchar("0123456789abcdef");
 putchar("\n");
 return (0);
 }
