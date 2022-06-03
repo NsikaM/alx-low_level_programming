@@ -14,7 +14,7 @@ int main(void)
 	if (n>0)
     putchar(n);
     puts("is positive");
-    else if (n<0)
+    elseif (n<0)
     putchar(n);
     puts("is negative");
     else
