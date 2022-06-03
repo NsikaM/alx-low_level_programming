@@ -7,9 +7,6 @@
  */
 int main(void)
 {
-lower = "abcdefghijklmnopqrtsuvwxyz"
-upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-putchar(lower);
-putchar(upper);
+puts("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
 return (0);
 }
