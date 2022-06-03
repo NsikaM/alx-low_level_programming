@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-puts("zyxwvutsrqponmlkjihgfedcba\n");
+puts("zyxwvutsrqponmlkjihgfedcba");
 return (0);
 }
