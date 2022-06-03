@@ -11,14 +11,22 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
-    putchar(n);
-    puts("is positive");
-    if (n<0)
+if (n>0)
+{
+putchar(n);
+puts("is positive");
+}
+
+if (n<0)
+{
     putchar(n);
     puts("is negative");
-    else
+}
+
+else
+{
     putchar(n);
     puts("is zero");
+}
 	return (0);
 }
