@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-lowerrev = "zyxwvutsrqponmlkjihgfedcba"
-putchar(lowerrev);
-putchar("\n");
+puts("zyxwvutsrqponmlkjihgfedcba\n");
 return (0);
 }
