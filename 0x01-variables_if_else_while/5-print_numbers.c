@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-put("0123456789");
+puts("0123456789");
 return (0);
 }
