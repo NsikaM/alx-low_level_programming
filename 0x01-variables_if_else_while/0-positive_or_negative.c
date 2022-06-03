@@ -9,6 +9,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+    cin >> n
 	if (n>0)
         cout << n << "is positive";
     else if (n<0)
