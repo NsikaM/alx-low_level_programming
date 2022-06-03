@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-lower = "abcdefghijklmnopqrtsuvwxyz"
-putchar(lower, "\n");
+puts("abcdfghijklmnoprstuvwxyz");
 return (0);
 }
