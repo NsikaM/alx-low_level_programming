@@ -11,22 +11,22 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-if (n>0)
+if (n > 0)
 {
-printf("%i",n);
+printf("%i", n);
 puts(" is positive");
 }
 
-else if (n<0)
+else if (n < 0)
 {
-    printf("%i",n);
-    puts(" is negative");
+printf("%i", n);
+puts(" is negative");
 }
 
 else
 {
-    printf("%i",n);
-    puts(" is zero");
+printf("%i", n);
+puts(" is zero");
 }
 	return (0);
 }
