@@ -14,11 +14,11 @@ int main(void)
 	if (n>0)
     putchar(n);
     puts("is positive");
-    elseif (n<0)
+    if (n<0)
     putchar(n);
     puts("is negative");
     else
-    putchar(n)
+    putchar(n);
     puts("is zero");
 	return (0);
 }
