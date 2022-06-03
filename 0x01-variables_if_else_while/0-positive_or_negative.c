@@ -11,9 +11,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-    using std::cout; using std::cin;
-    using std::endl; using std::string;
-    cin >> n;
 	if (n>0)
         putchar(n);
         puts("is positive");
