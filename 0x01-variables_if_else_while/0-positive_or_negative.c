@@ -14,19 +14,19 @@ int main(void)
 if (n>0)
 {
 printf("%i",n);
-puts("is positive");
+puts(" is positive");
 }
 
 else if (n<0)
 {
     printf("%i",n);
-    puts("is negative");
+    puts(" is negative");
 }
 
 else
 {
     printf("%i",n);
-    puts("is zero");
+    puts(" is zero");
 }
 	return (0);
 }
