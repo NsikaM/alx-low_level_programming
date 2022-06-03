@@ -33,7 +33,7 @@ printf(" and is 0");
 
 else
 {
-printf("Last digit of ")
+printf("Last digit of ");
 printf("%i", n);
 printf(" and is less than 6 and not 0");
 }
