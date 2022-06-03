@@ -13,10 +13,13 @@ int main(void)
     using std::endl; using std::string;
     cin >> n;
 	if (n>0)
-        cout << n << "is positive";
+        putchar(n);
+        puts("is positive");
     else if (n<0)
-        cout << n << "is negative";
+        putchar(n);
+        puts("is negative");
     else
-        cout << n << "is zero";
+        putchar(n)
+        puts("is zero");
 	return (0);
 }
