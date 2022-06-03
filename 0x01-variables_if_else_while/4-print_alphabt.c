@@ -8,7 +8,6 @@
 int main(void)
 {
 lower = "abcdefghijklmnopqrtsuvwxyz"
-putchar(lower);
-putchar("\n");
+putchar(lower, "\n");
 return (0);
 }
