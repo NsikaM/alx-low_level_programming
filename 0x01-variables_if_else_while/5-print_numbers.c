@@ -7,8 +7,7 @@
  */
 int main(void)
 {
-lower = "abcdefghijklmnopqrtsuvwxyz"
-putchar(lower);
-putchar("\n");
+numbers ="0123456789"
+putchar(numbers);
 return (0);
 }
