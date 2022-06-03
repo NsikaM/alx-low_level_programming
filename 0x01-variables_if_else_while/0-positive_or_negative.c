@@ -13,19 +13,19 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 if (n>0)
 {
-puts(n);
+puts("%d",n);
 puts("is positive");
 }
 
 if (n<0)
 {
-    puts(n);
+    puts("%d",n);
     puts("is negative");
 }
 
 else
 {
-    puts(n);
+    puts("%d",n);
     puts("is zero");
 }
 	return (0);
