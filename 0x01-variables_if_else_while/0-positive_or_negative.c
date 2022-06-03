@@ -11,10 +11,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-/**
- * Checks if number is positive or negative
- */
-
+	/* your code goes there */
 if (n > 0)
 {
 printf("%i", n);
