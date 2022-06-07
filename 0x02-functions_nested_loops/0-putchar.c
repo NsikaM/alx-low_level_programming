@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 
 /* prints _putchar, followed by a new line. */
 /* betty style doc for function main goes there */
