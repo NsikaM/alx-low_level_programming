@@ -1,4 +1,5 @@
 #include "main.h"
+
 /* prints _putchar, followed by a new line. */
 /* betty style doc for function main goes there */
 /**
@@ -8,6 +9,6 @@
  */
 int main(void)
 {
-puts("_putchar\n");
+puts("_putchar");
 return (0);
 }
