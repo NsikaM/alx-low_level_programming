@@ -1,10 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 #include "main.h"
 /* prints _putchar, followed by a new line. */
-#include <time.h>
-#include <stdio.h>
-
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
