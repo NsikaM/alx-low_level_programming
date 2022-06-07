@@ -3,7 +3,6 @@
  *
  * Return: Always 0 (Succes)
  */
-#include <main.h>
 void print_alphabet(void)
 {
 	int n;
