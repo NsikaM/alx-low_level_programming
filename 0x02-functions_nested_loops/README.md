@@ -1,1 +1,0 @@
-This is my second task for the low level programming
